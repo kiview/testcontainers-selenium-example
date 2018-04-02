@@ -52,7 +52,7 @@ class SeleniumTest extends GebTest {
         $("a").click()
         assert title == "Testcontainers Test Page - Second Page"
 
-        // click on button and very javascript alert box
+        // click on button and verify javascript alert box
         assert withAlert {
             $("input").click()
         } == "Bang!"
