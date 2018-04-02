@@ -1,0 +1,16 @@
+plugins {
+    id 'groovy'
+}
+
+dependencies {
+    testCompile 'org.spockframework:spock-core:1.1-groovy-2.4'
+    testCompile 'org.gebish:geb-junit4:2.1'
+    testCompile "org.seleniumhq.selenium:selenium-support:3.6.0"
+    testCompile 'org.testcontainers:selenium:1.6.0'
+
+    testCompile 'ch.qos.logback:logback-classic:1.2.3'
+}
+
+repositories {
+    jcenter()
+}
