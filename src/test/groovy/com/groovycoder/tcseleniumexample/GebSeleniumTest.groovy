@@ -13,7 +13,7 @@ import org.testcontainers.images.builder.ImageFromDockerfile
 import static org.testcontainers.containers.BrowserWebDriverContainer.VncRecordingMode.RECORD_ALL
 import static org.testcontainers.containers.Network.newNetwork
 
-class SeleniumTest extends GebTest {
+class GebSeleniumTest extends GebTest {
 
     @Rule
     public Network network = newNetwork() // shared network for all containers to use DNS
